@@ -4,7 +4,7 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Job Listings</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -12,22 +12,22 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.JobTitle)
+            <h6>Job Title</h6>
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.CompanyName)
+            <h6>Company Name</h6>
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.JobLink)
+            <h6>Job Link</h6>
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.JobDescription)
+            <h6>Job Description</h6>
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Company.CompanyName)
+            <h6>Company Name</h6>
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Recruiter.FName)
+            <h6>Recruiter Name</h6>
         </th>
         <th></th>
     </tr>
